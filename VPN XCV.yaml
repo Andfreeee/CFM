@@ -1,3 +1,4 @@
+proxies:
   - {name: 11.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: c35c28a0-769c-11ef-bc66-1577c1651679, sni: , skip-cert-verify: true}
   - {name: 3.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 3bf57d80-769d-11ef-8374-1577c1651679, sni: , skip-cert-verify: true}
   - {name: 4.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 50af1a60-769d-11ef-9197-1577c1651679, sni: , skip-cert-verify: true}
