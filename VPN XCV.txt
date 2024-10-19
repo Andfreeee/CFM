@@ -1,0 +1,13 @@
+  - {name: 11.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: c35c28a0-769c-11ef-bc66-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: 3.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 3bf57d80-769d-11ef-8374-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: 4.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 50af1a60-769d-11ef-9197-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: biznet1.1server.co, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 724d0060-769d-11ef-8d9c-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: hsp2.htmlcdn.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 86d7b8e0-769d-11ef-94a3-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: sg-trojan.1server.co, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: a9570330-769d-11ef-90dc-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: sg.xmbb.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: c1d44520-769d-11ef-933e-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: 3.lowh.net 26, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: faea2670-769d-11ef-a021-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: 4.lowh.net 79, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 124d0000-769e-11ef-bf21-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: biznet1.1server.co 72, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 2cc61690-769e-11ef-a0e3-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: hsp2.htmlcdn.net 30, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 52c68500-769e-11ef-ac74-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: sg-trojan.1server.co 80, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 6e6108d0-769e-11ef-8377-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: sg.xmbb.net 40, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 84039350-769e-11ef-a98e-1577c1651679, sni: , skip-cert-verify: true}
