@@ -1,14 +1,11 @@
 proxies:
-  - {name: 11.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: c35c28a0-769c-11ef-bc66-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: 3.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 3bf57d80-769d-11ef-8374-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: 4.lowh.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 50af1a60-769d-11ef-9197-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: biznet1.1server.co, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 724d0060-769d-11ef-8d9c-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: hsp2.htmlcdn.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: 86d7b8e0-769d-11ef-94a3-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: sg-trojan.1server.co, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: a9570330-769d-11ef-90dc-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: sg.xmbb.net, server: 104.17.3.81, port: 443, udp: true, type: trojan, password: c1d44520-769d-11ef-933e-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: 3.lowh.net 26, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: faea2670-769d-11ef-a021-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: 4.lowh.net 79, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 124d0000-769e-11ef-bf21-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: biznet1.1server.co 72, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 2cc61690-769e-11ef-a0e3-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: hsp2.htmlcdn.net 30, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 52c68500-769e-11ef-ac74-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: sg-trojan.1server.co 80, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 6e6108d0-769e-11ef-8377-1577c1651679, sni: , skip-cert-verify: true}
-  - {name: sg.xmbb.net 40, server: 104.17.3.81, port: 80, udp: true, type: trojan, password: 84039350-769e-11ef-a98e-1577c1651679, sni: , skip-cert-verify: true}
+  - {name: 10.lowh.net, server: 104.17.3.81, port: 443, type: vmess, uuid: ddb86ec0-63ba-11ef-a8f6-1577c1651679, sni: 10.lowh.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 10.lowh.net}}}
+  - {name: 2.htmlcdn.net, server: 104.17.3.81, port: 443, type: vmess, uuid: 71804490-79c0-11ef-a475-1577c1651679, sni: 2.htmlcdn.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 2.htmlcdn.net}}}
+  - {name: 5.lowh.net, server: 104.17.3.81, port: 443, type: vmess, uuid: 532deaf0-79c1-11ef-afce-1577c1651679, sni: 5.lowh.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 5.lowh.net}}}
+  - {name: cbtp.xmbb.net, server: 104.17.3.81, port: 443, type: vmess, uuid: 2a0e90a0-63bb-11ef-950e-1577c1651679, sni: cbtp.xmbb.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: cbtp.xmbb.net}}}
+  - {name: hsp1.htmlcdn.net, server: 104.17.3.81, port: 443, type: vmess, uuid: 8d44e2e0-79c7-11ef-b836-1577c1651679, sni: hsp1.htmlcdn.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: hsp1.htmlcdn.net}}}
+  - {name: 10.lowh.net 24, server: 104.17.3.81, port: 80, type: vmess, uuid: bcb9a010-6ac7-11ef-949a-1577c1651679, sni: 10.lowh.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 10.lowh.net}}}
+  - {name: 2.htmlcdn.net 32, server: 104.17.3.81, port: 80, type: vmess, uuid: dc71e360-6ac7-11ef-b778-1577c1651679, sni: 2.htmlcdn.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 2.htmlcdn.net}}}
+  - {name: 5.lowh.net 34, server: 104.17.3.81, port: 80, type: vmess, uuid: ef07f880-6ac7-11ef-845e-1577c1651679, sni: 5.lowh.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 5.lowh.net}}}
+  - {name: cbtp.xmbb.net 73, server: 104.17.3.81, port: 80, type: vmess, uuid: 07e51d30-6ac8-11ef-b1f1-1577c1651679, sni: cbtp.xmbb.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: cbtp.xmbb.net}}}
+  - {name: hsp1.htmlcdn.net 46, server: 104.17.3.81, port: 80, type: vmess, uuid: 223697b0-6ac8-11ef-952d-1577c1651679, sni: hsp1.htmlcdn.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /api/v1/token/hetoken/worryfree, headers: {Host: hsp1.htmlcdn.net}}}
