@@ -14,7 +14,7 @@ proxies:
   - {name: Sanggoro 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 86bc90f0-61b9-11ef-b93e-1577c1651679, sni: support.zoom.us.5-lowh.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.5-lowh.pertamaxx.net}}}
   - {name: CBTP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 2a0e90a0-63bb-11ef-950e-1577c1651679, sni: support.zoom.us.cbtp.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.cbtp.pertamaxx.net}}}
   - {name: HSP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 3ced5400-63bb-11ef-b7e9-1577c1651679, sni: support.zoom.us.hsp1.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.hsp1.pertamaxx.net}}}
-  - name: Herza 443 SG 
+  - name: Herza 443 SG T
     server: 11.lowh.net
     port: 443
     type: trojan
@@ -27,7 +27,7 @@ proxies:
       headers:
         Host: support.zoom.us.11-lowh.pertamaxx.net
     udp: true
-  - name: USA 443
+  - name: USA 443 T
     server: 3.lowh.net
     port: 443
     type: trojan
@@ -40,7 +40,7 @@ proxies:
       headers:
         Host: support.zoom.us.3-lowh.pertamaxx.net
     udp: true
-  - name: Sanggoro 443 ID
+  - name: Sanggoro 443 ID T
     server: 4.lowh.net
     port: 443
     type: trojan
@@ -53,7 +53,7 @@ proxies:
       headers:
         Host: support.zoom.us.4-lowh.pertamaxx.net
     udp: true
-  - name: Biznet 443 ID
+  - name: Biznet 443 ID T
     server: biznet1.1server.co
     port: 443
     type: trojan
@@ -66,7 +66,7 @@ proxies:
       headers:
         Host: support.zoom.us.biznet1.pertamaxx.net
     udp: true
-  - name: HSP 443 ID
+  - name: HSP 443 ID T
     server: hsp2.htmlcdn.net
     port: 443
     type: trojan
@@ -92,7 +92,7 @@ proxies:
       headers:
         Host: support.zoom.us.sg-trojan.pertamaxx.net
     udp: true
-  - name: PATH SG
+  - name: PATH SG T
     server: sg.xmbb.net
     port: 443
     type: trojan
