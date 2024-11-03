@@ -14,94 +14,94 @@ proxies:
   - {name: Sanggoro 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 86bc90f0-61b9-11ef-b93e-1577c1651679, sni: support.zoom.us.5-lowh.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.5-lowh.pertamaxx.net}}}
   - {name: CBTP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 2a0e90a0-63bb-11ef-950e-1577c1651679, sni: support.zoom.us.cbtp.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.cbtp.pertamaxx.net}}}
   - {name: HSP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 3ced5400-63bb-11ef-b7e9-1577c1651679, sni: support.zoom.us.hsp1.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.hsp1.pertamaxx.net}}}
-- name: Herza 443 SG 
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: c35c28a0-769c-11ef-bc66-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.11-lowh.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.11-lowh.pertamaxx.net
-    udp: true
-  - name: USA 443
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 3bf57d80-769d-11ef-8374-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.3-lowh.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.3-lowh.pertamaxx.net
-    udp: true
-  - name: Sanggoro 443 ID
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 50af1a60-769d-11ef-9197-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.4-lowh.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.4-lowh.pertamaxx.net
-    udp: true
-  - name: Biznet 443 ID
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 724d0060-769d-11ef-8d9c-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.biznet1.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.biznet1.pertamaxx.net
-    udp: true
-  - name: HSP 443 ID
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: 86d7b8e0-769d-11ef-94a3-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.hsp2.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.hsp2.pertamaxx.net
-    udp: true
-  - name: HE 443 SG
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: a9570330-769d-11ef-90dc-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.sg-trojan.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.sg-trojan.pertamaxx.net
-    udp: true
-  - name: PATH SG
-    server: support.zoom.us
-    port: 443
-    type: trojan
-    password: c1d44520-769d-11ef-933e-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.sg.pertamaxx.net
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.sg.pertamaxx.net
-    udp: true
+  - name: Herza 443 SG 
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: c35c28a0-769c-11ef-bc66-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.11-lowh.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.11-lowh.pertamaxx.net
+      udp: true
+    - name: USA 443
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: 3bf57d80-769d-11ef-8374-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.3-lowh.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.3-lowh.pertamaxx.net
+      udp: true
+    - name: Sanggoro 443 ID
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: 50af1a60-769d-11ef-9197-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.4-lowh.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.4-lowh.pertamaxx.net
+      udp: true
+    - name: Biznet 443 ID
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: 724d0060-769d-11ef-8d9c-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.biznet1.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.biznet1.pertamaxx.net
+      udp: true
+    - name: HSP 443 ID
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: 86d7b8e0-769d-11ef-94a3-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.hsp2.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.hsp2.pertamaxx.net
+      udp: true
+    - name: HE 443 SG
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: a9570330-769d-11ef-90dc-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.sg-trojan.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.sg-trojan.pertamaxx.net
+      udp: true
+    - name: PATH SG
+      server: support.zoom.us
+      port: 443
+      type: trojan
+      password: c1d44520-769d-11ef-933e-1577c1651679
+      skip-cert-verify: true
+      sni: support.zoom.us.sg.pertamaxx.net
+      network: ws
+      ws-opts:
+        path: /welcome
+        headers:
+          Host: support.zoom.us.sg.pertamaxx.net
+      udp: true
