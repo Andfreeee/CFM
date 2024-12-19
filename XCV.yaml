@@ -7,22 +7,22 @@ proxies:
   - {name: GS 80 SG, server: 172.67.73.39, port: 80, type: vmess, uuid: dc71e360-6ac7-11ef-b778-1577c1651679, sni: 2.htmlcdn.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 2.htmlcdn.net}}}
   - {name: Sanggoro 80 ID , server: 172.67.73.39, port: 80, type: vmess, uuid: ef07f880-6ac7-11ef-845e-1577c1651679, sni: 5.lowh.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 5.lowh.net}}}
   - {name: HSP 80 ID, server: 172.67.73.39, port: 80, type: vmess, uuid: 223697b0-6ac8-11ef-952d-1577c1651679, sni: hsp1.htmlcdn.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /api/v1/token/hetoken/worryfree, headers: {Host: hsp1.htmlcdn.net}}}
-  - {name: HE 443 SG P, server: support.zoom.us, port: 443, type: vmess, uuid: ddb86ec0-63ba-11ef-a8f6-1577c1651679, sni: support.zoom.us.10-lowh.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.10-lowh.pertamaxx.net}}}
-  - {name: GS 443 SG P, server: support.zoom.us, port: 443, type: vmess, uuid: 039c16a0-63bb-11ef-a3a2-1577c1651679, sni: support.zoom.us.2-htmlcdn.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.2-htmlcdn.pertamaxx.net}}}
-  - {name: Sanggoro 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 86bc90f0-61b9-11ef-b93e-1577c1651679, sni: support.zoom.us.5-lowh.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.5-lowh.pertamaxx.net}}}
-  - {name: HSP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 3ced5400-63bb-11ef-b7e9-1577c1651679, sni: support.zoom.us.hsp1.pertamaxx.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.hsp1.pertamaxx.net}}}
+  - {name: HE 443 SG P, server: support.zoom.us, port: 443, type: vmess, uuid: ddb86ec0-63ba-11ef-a8f6-1577c1651679, sni: support.zoom.us.10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.10-lowh.andfree.my.id}}}
+  - {name: GS 443 SG P, server: support.zoom.us, port: 443, type: vmess, uuid: 039c16a0-63bb-11ef-a3a2-1577c1651679, sni: support.zoom.us.2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.2-htmlcdn.andfree.my.id}}}
+  - {name: Sanggoro 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 86bc90f0-61b9-11ef-b93e-1577c1651679, sni: support.zoom.us.5-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.5-lowh.andfree.my.id}}}
+  - {name: HSP 443 ID P, server: support.zoom.us, port: 443, type: vmess, uuid: 3ced5400-63bb-11ef-b7e9-1577c1651679, sni: support.zoom.us.hsp1.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: support.zoom.us.hsp1.andfree.my.id}}}
   - name: Herza 443 SG T
     server: 11.lowh.net
     port: 443
     type: trojan
     password: c35c28a0-769c-11ef-bc66-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.11-lowh.pertamaxx.net
+    sni: support.zoom.us.11-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.11-lowh.pertamaxx.net
+        Host: support.zoom.us.11-lowh.andfree.my.id
     udp: true
   - name: USA 443 T
     server: 3.lowh.net
@@ -30,12 +30,12 @@ proxies:
     type: trojan
     password: 3bf57d80-769d-11ef-8374-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.3-lowh.pertamaxx.net
+    sni: support.zoom.us.3-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.3-lowh.pertamaxx.net
+        Host: support.zoom.us.3-lowh.andfree.my.id
     udp: true
   - name: Sanggoro 443 ID T
     server: 4.lowh.net
@@ -43,12 +43,12 @@ proxies:
     type: trojan
     password: 50af1a60-769d-11ef-9197-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.4-lowh.pertamaxx.net
+    sni: support.zoom.us.4-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.4-lowh.pertamaxx.net
+        Host: support.zoom.us.4-lowh.andfree.my.id
     udp: true
   - name: Biznet 443 ID T
     server: biznet1.1server.co
@@ -56,12 +56,12 @@ proxies:
     type: trojan
     password: 724d0060-769d-11ef-8d9c-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.biznet1.pertamaxx.net
+    sni: support.zoom.us.biznet1.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.biznet1.pertamaxx.net
+        Host: support.zoom.us.biznet1.andfree.my.id
     udp: true
   - name: HSP 443 ID T
     server: hsp2.htmlcdn.net
@@ -69,12 +69,12 @@ proxies:
     type: trojan
     password: 86d7b8e0-769d-11ef-94a3-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.hsp2.pertamaxx.net
+    sni: support.zoom.us.hsp2.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.hsp2.pertamaxx.net
+        Host: support.zoom.us.hsp2.andfree.my.id
     udp: true
   - name: HE 443 SG
     server: sg-trojan.1server.co
@@ -82,12 +82,12 @@ proxies:
     type: trojan
     password: a9570330-769d-11ef-90dc-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.sg-trojan.pertamaxx.net
+    sni: support.zoom.us.sg-trojan.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.sg-trojan.pertamaxx.net
+        Host: support.zoom.us.sg-trojan.andfree.my.id
     udp: true
   - name: PATH SG T
     server: sg.xmbb.net
@@ -95,10 +95,10 @@ proxies:
     type: trojan
     password: c1d44520-769d-11ef-933e-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.sg.pertamaxx.net
+    sni: support.zoom.us.sg.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.sg.pertamaxx.net
+        Host: support.zoom.us.sg.andfree.my.id
     udp: true
