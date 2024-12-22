@@ -8,93 +8,93 @@ proxies:
   - {name: Sanggoro 80 ID , server: 104.17.3.81, port: 80, type: vmess, uuid: ef07f880-6ac7-11ef-845e-1577c1651679, sni: 5-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 5-lowh.andfree.my.id}}}
   - {name: HSP 80 ID, server: 104.17.3.81, port: 80, type: vmess, uuid: 223697b0-6ac8-11ef-952d-1577c1651679, sni: hsp1.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /api/v1/token/hetoken/worryfree, headers: {Host: hsp1.andfree.my.id}}}
   - name: Herza 443 SG T
-    server: support.zoom.us
+    server: 11-lowh.andfree.my.id
     port: 443
     type: trojan
     password: c35c28a0-769c-11ef-bc66-1577c1651679
     skip-cert-verify: true
-    sni: 11-lowh.andfree.my.id
+    sni: support.zoom.us.11-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: 11-lowh.andfree.my.id
+        Host: support.zoom.us.11-lowh.andfree.my.id
     udp: true
   - name: USA 443 T
-    server: support.zoom.us
+    server: 3-lowh.andfree.my.id
     port: 443
     type: trojan
     password: 3bf57d80-769d-11ef-8374-1577c1651679
     skip-cert-verify: true
-    sni: 3-lowh.andfree.my.id
+    sni: support.zoom.us.3-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: 3-lowh.andfree.my.id
+        Host: support.zoom.us.3-lowh.andfree.my.id
     udp: true
   - name: Sanggoro 443 ID T
-    server: support.zoom.us
+    server: 4-lowh.andfree.my.id
     port: 443
     type: trojan
     password: 50af1a60-769d-11ef-9197-1577c1651679
     skip-cert-verify: true
-    sni: 4-lowh.andfree.my.id
+    sni: support.zoom.us.4-lowh.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: 4-lowh.andfree.my.id
+        Host: support.zoom.us.4-lowh.andfree.my.id
     udp: true
   - name: Biznet 443 ID T
-    server: support.zoom.us
+    server: biznet1.andfree.my.id
     port: 443
     type: trojan
     password: 724d0060-769d-11ef-8d9c-1577c1651679
     skip-cert-verify: true
-    sni: biznet1.andfree.my.id
+    sni: support.zoom.us.biznet1.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: biznet1.andfree.my.id
+        Host: support.zoom.us.biznet1.andfree.my.id
     udp: true
   - name: HSP 443 ID T
-    server: support.zoom.us
+    server: hsp2.andfree.my.id
     port: 443
     type: trojan
     password: 86d7b8e0-769d-11ef-94a3-1577c1651679
     skip-cert-verify: true
-    sni: hsp2.andfree.my.id
+    sni: support.zoom.us.hsp2.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: hsp2.andfree.my.id
+        Host: support.zoom.us.hsp2.andfree.my.id
     udp: true
   - name: HE 443 SG
-    server: support.zoom.us
+    server: sg-trojan.andfree.my.id
     port: 443
     type: trojan
     password: a9570330-769d-11ef-90dc-1577c1651679
     skip-cert-verify: true
-    sni: sg-trojan.andfree.my.id
+    sni: support.zoom.us.sg-trojan.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: sg-trojan.andfree.my.id
+        Host: support.zoom.us.sg-trojan.andfree.my.id
     udp: true
   - name: PATH SG T
-    server: support.zoom.us
+    server: sg-xm.andfree.my.id
     port: 443
     type: trojan
     password: c1d44520-769d-11ef-933e-1577c1651679
     skip-cert-verify: true
-    sni: sg-xm.andfree.my.id
+    sni: support.zoom.us.sg-xm.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: sg-xm.andfree.my.id
+        Host: support.zoom.us.sg-xm.andfree.my.id
     udp: true
