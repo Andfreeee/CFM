@@ -72,19 +72,6 @@ proxies:
       headers:
         Host: support.zoom.us.hsp2.andfree.my.id
     udp: true
-  - name: HE 443 SG T
-    server: sg-trojan.andfree.my.id
-    port: 443
-    type: trojan
-    password: a9570330-769d-11ef-90dc-1577c1651679
-    skip-cert-verify: true
-    sni: support.zoom.us.sg-trojan.andfree.my.id
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: support.zoom.us.sg-trojan.andfree.my.id
-    udp: true
   - name: PATH SG T
     server: sg-xm.andfree.my.id
     port: 443
@@ -97,4 +84,17 @@ proxies:
       path: /welcome
       headers:
         Host: support.zoom.us.sg-xm.andfree.my.id
+    udp: true
+  - name: HE 443 SG T
+    server: sg-trojan.andfree.my.id
+    port: 443
+    type: trojan
+    password: a9570330-769d-11ef-90dc-1577c1651679
+    skip-cert-verify: true
+    sni: support.zoom.us.sg-trojan.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: support.zoom.us.sg-trojan.andfree.my.id
     udp: true
