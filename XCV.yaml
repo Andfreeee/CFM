@@ -39,12 +39,12 @@ proxies:
     type: trojan
     password: 50af1a60-769d-11ef-9197-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.4-lowh.andfree.my.id
+    sni: support.zoom.us
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.4-lowh.andfree.my.id
+        Host: 4-lowh.andfree.my.id
     udp: true
   - name: Biznet 443 ID T
     server: biznet1.andfree.my.id
