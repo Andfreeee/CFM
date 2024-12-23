@@ -47,30 +47,30 @@ proxies:
         Host: 4-lowh.andfree.my.id
     udp: true
   - name: Biznet 443 ID T
-    server: biznet1.andfree.my.id
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: 724d0060-769d-11ef-8d9c-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.biznet1.andfree.my.id
+    sni: biznet1.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.biznet1.andfree.my.id
+        Host: biznet1.andfree.my.id
     udp: true
   - name: HSP 443 ID T
-    server: hsp2.andfree.my.id
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: 86d7b8e0-769d-11ef-94a3-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.hsp2.andfree.my.id
+    sni: hsp2.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.hsp2.andfree.my.id
+        Host: hsp2.andfree.my.id
     udp: true
   - name: PATH SG T
     server: sg-xm.andfree.my.id
