@@ -86,7 +86,7 @@ proxies:
         Host: support.zoom.us.sg-trojan.andfree.my.id
     udp: true
   - name: PATH SG T
-    server:  support.zoom.us
+    server: support.zoom.us
     port: 443
     type: trojan
     password: c1d44520-769d-11ef-933e-1577c1651679
