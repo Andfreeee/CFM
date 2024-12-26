@@ -98,3 +98,18 @@ proxies:
       headers:
         Host: support.zoom.us.sg-trojan.andfree.my.id
     udp: true
+  - name: VLESS-WS-443
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 47234180-c333-11ef-94d0-1577c1651679
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-vless-ws.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: sg-vless-ws.andfree.my.id
+    udp: true
