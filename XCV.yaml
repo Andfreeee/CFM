@@ -98,7 +98,7 @@ proxies:
       headers:
         Host: sg-trojan.andfree.my.id
     udp: true
-  - name: VLESS-WS-443
+  - name: VLESS HE 443
     server: 104.17.3.81
     port: 443
     type: vless
@@ -110,6 +110,21 @@ proxies:
     network: ws
     ws-opts:
       path: /hello
+      headers:
+        Host: sg-vless-ws.andfree.my.id
+    udp: true
+  - name: VLESS HE 80
+    server: 104.17.3.81
+    port: 80
+    type: vless
+    uuid: 7591a820-c35b-11ef-87c1-1577c1651679
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-vless-ws.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /worryfree
       headers:
         Host: sg-vless-ws.andfree.my.id
     udp: true
