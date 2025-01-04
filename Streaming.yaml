@@ -1,6 +1,7 @@
 payload:
   #Youtube
   - DOMAIN,yt3.ggpht.com
+  - DOMAIN,youtube.com
   - DOMAIN-SUFFIX,.youtube.com
   - DOMAIN-SUFFIX,ggpht.cn
   - DOMAIN-SUFFIX,ggpht.com
