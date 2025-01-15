@@ -76,7 +76,7 @@ proxies:
     server: 104.17.3.81
     port: 443
     type: trojan
-    password: c1d44520-769d-11ef-933e-1577c1651679
+    password: d0f02af0-d33f-11ef-9050-1577c1651679
     skip-cert-verify: true
     sni: andfree.my.id
     network: ws
