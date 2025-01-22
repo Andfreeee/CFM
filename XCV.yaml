@@ -98,6 +98,19 @@ proxies:
       headers:
         Host: sg-trojan.andfree.my.id
     udp: true
+  - name: HERZA 443 SG T
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: c7f9c3a0-d898-11ef-a8d2-1577c1651679
+    skip-cert-verify: true
+    sni: hz1.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: hz1.andfree.my.id
+    udp: true
   - name: VLESS HE 443
     server: 104.17.3.81
     port: 443
