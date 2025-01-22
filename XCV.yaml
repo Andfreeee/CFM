@@ -14,12 +14,12 @@ proxies:
     type: trojan
     password: c35c28a0-769c-11ef-bc66-1577c1651679
     skip-cert-verify: true
-    sni: 11-lowh.andfree.my.id
+    sni: 11-lowh.rimuru.My.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: 11-lowh.andfree.my.id
+        Host: 11-lowh.rimuru.My.id
     udp: true
   - name: USA 443 T
     server: 104.17.3.81
