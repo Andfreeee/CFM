@@ -9,3 +9,34 @@ proxies:
   - {name: 5.lowh.net 34, server: 104.17.3.81, port: 80, type: vmess, uuid: ef07f880-6ac7-11ef-845e-1577c1651679, sni: 5.lowh.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 5.lowh.net}}}
   - {name: cbtp.xmbb.net 73, server: 104.17.3.81, port: 80, type: vmess, uuid: 07e51d30-6ac8-11ef-b1f1-1577c1651679, sni: cbtp.xmbb.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: cbtp.xmbb.net}}}
   - {name: hsp1.htmlcdn.net 46, server: 104.17.3.81, port: 80, type: vmess, uuid: 223697b0-6ac8-11ef-952d-1577c1651679, sni: hsp1.htmlcdn.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /api/v1/token/hetoken/worryfree, headers: {Host: hsp1.htmlcdn.net}}}
+  - name: VLESS HE 443
+    server: 104.17.3.81
+    port: 443
+    type: vless
+    uuid: 47234180-c333-11ef-94d0-1577c1651679
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sg-vless-ws.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /hello
+      headers:
+        Host: sg-vless-ws.andfree.my.id
+    udp: true
+  - name: VLESS HE 80
+    server: 104.17.3.81
+    port: 80
+    type: vless
+    uuid: 7591a820-c35b-11ef-87c1-1577c1651679
+    cipher: auto
+    tls: false
+    skip-cert-verify: true
+    servername: sg-vless-ws.andfree.my.id
+    network: ws
+    ws-opts:
+      path: /worryfree
+      headers:
+        Host: sg-vless-ws.andfree.my.id
+    udp: true
+    
