@@ -84,7 +84,7 @@ proxies:
       headers:
         Host: sg-trojan.andfree.my.id
     udp: true
-  - name: HERZA 443 SG T
+  - name: HERZA ID
     server: 104.17.3.81
     port: 443
     type: trojan
