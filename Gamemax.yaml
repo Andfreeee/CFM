@@ -1,8 +1,8 @@
 payload:
 # Discord
-  - IP-CIDR,192.168.43.223
   - DOMAIN-KEYWORD,discord
   - DOMAIN-SUFFIX,discord.com
+  - DOMAIN-SUFFIX,discord.gg
 # FreeFire
   - IP-CIDR,103.14.247.0/24
   - IP-CIDR,143.92.120.0/24
