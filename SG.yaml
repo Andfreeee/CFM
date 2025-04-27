@@ -32,3 +32,17 @@ proxies:
       headers:
         Host: sg-trojan.andfree.my.id
     udp: true
+  - name: "WG TEST"
+    type: wireguard
+    ip: 10.66.72.236
+    private-key: 2ODnT8RfQacaDARCMrQ9R67XbyiO/EFkPFfb+KxNB0w=
+    peers:
+      - server: 104.17.3.81
+        port: 443
+        public-key: nniPvrYIbIRSfEEUMtSGmn4ue1ESEJ3ip6StlrLuGgQ=
+        allowed-ips: ['0.0.0.0/0']
+        pre-shared-key: DG5P969z8yYiSnTakT/eG/ulAKEvQlQSKX+RbO3ofTs=
+    udp: true
+    remote-dns-resolve: true 
+    dns: [ 1.1.1.1 ] 
+  
