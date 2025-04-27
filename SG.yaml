@@ -43,6 +43,4 @@ proxies:
         allowed-ips: ['0.0.0.0/0']
         pre-shared-key: DG5P969z8yYiSnTakT/eG/ulAKEvQlQSKX+RbO3ofTs=
     udp: true
-    remote-dns-resolve: true 
-    dns: [ 1.1.1.1 ] 
   
