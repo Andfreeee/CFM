@@ -21,10 +21,10 @@ proxies:
     type: trojan
     password: c7f9c3a0-d898-11ef-a8d2-1577c1651679
     skip-cert-verify: true
-    sni: hz1.andfree.my.id
+    sni: hz0.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: hz1.andfree.my.id
+        Host: hz0.andfree.my.id
     udp: true
