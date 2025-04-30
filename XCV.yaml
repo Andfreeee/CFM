@@ -58,19 +58,6 @@ proxies:
       headers:
         Host: biznet1.andfree.my.id
     udp: true
-  - name: PATH SG T
-    server: 104.17.3.81
-    port: 443
-    type: trojan
-    password: d0f02af0-d33f-11ef-9050-1577c1651679
-    skip-cert-verify: true
-    sni: andfree.my.id
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: sg-xm.andfree.my.id
-    udp: true
   - name: HE 443 SG T
     server: 104.17.3.81
     port: 443
