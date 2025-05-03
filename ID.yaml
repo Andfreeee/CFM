@@ -3,7 +3,7 @@ proxies:
   #- {name: Sanggoro 80 ID , server: 104.17.3.81, port: 80, type: vmess, uuid: 55e3fcb0-df32-11ef-baab-1577c1651679, sni: 5-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 5-lowh.andfree.my.id}}}
   - {name: Herza ID, server: 104.17.3.81, port: 443, type: vmess, uuid: 605bb240-d899-11ef-9496-1577c1651679, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: hz2.andfree.my.id, network: ws, ws-opts: {path: /hello, headers: {Host: hz2.andfree.my.id}}, udp: true}
   - name: Biznet 443 ID T
-    server: biznet1.1server.co
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: 2af84bb0-df33-11ef-8293-1577c1651679
