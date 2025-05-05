@@ -37,7 +37,7 @@ proxies:
     ip: 10.66.72.236
     private-key: 2ODnT8RfQacaDARCMrQ9R67XbyiO/EFkPFfb+KxNB0w=
     peers:
-      - server: support.zoom.us.wg.andfree.my.id
+      - server: support.zoom.us.sg-wg.bypass.id
         port: 443
         public-key: nniPvrYIbIRSfEEUMtSGmn4ue1ESEJ3ip6StlrLuGgQ=
         allowed-ips: ['0.0.0.0/0']
