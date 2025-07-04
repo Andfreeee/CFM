@@ -28,3 +28,16 @@ proxies:
       headers:
         Host: biznet1.1server.co
     udp: true
+  - name: Sanggoro 443 ID T
+    server: 104.17.3.81
+    port: 443
+    type: trojan
+    password: f711de40-58e6-11f0-aa7b-1577c1651679
+    skip-cert-verify: true
+    sni: 15.lowh.net
+    network: ws
+    ws-opts:
+      path: /welcome
+      headers:
+        Host: 15.lowh.net
+    udp: true
