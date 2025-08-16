@@ -56,7 +56,7 @@ proxies:
       headers:
         Host: id-ikd.xmbb.net
     udp: true
-  - name: IKD
+  - name: IKD ID
     server: 104.17.3.81
     port: 80
     type: vmess
