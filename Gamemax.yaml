@@ -20,6 +20,11 @@ payload:
   - IP-CIDR,75.2.69.178/31
   - IP-CIDR,76.223.1.250/31
   - IP-CIDR,99.83.157.116/30
+  - DOMAIN-SUFFIX,api.account.riotgames.com
+  - DOMAIN-SUFFIX,sea.edge.rms.si.riotgames.com
+  - DOMAIN-KEYWORD,riotgames
+  - '+.riotgames.com'
+  
   
 
 # FreeFire
