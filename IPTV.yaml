@@ -1,1 +1,2 @@
-- DOMAIN-SUFFIX,starhubgo.com
+payload:
+  - DOMAIN-SUFFIX,starhubgo.com
