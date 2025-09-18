@@ -1,11 +1,11 @@
 proxies:
-  - {name: Sanggoro 443 ID, server: 104.17.3.81, port: 443, type: vmess, uuid: a450a370-2af8-11f0-91f8-1577c1651679, sni: 14-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 14-lowh.andfree.my.id}}}
-  - {name: Sanggoro 80 ID , server: 104.17.3.81, port: 80, type: vmess, uuid: fae8a4c0-2b10-11f0-8d2e-1577c1651679, sni: 14-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 14-lowh.andfree.my.id}}}
-  - {name: Herza x Biznet ID, server: 104.17.3.81, port: 443, type: vmess, uuid: 605bb240-d899-11ef-9496-1577c1651679, sni: hz2.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: hz2.andfree.my.id}}}
-  - {name: Ardh 443 ID, server: 104.17.3.81, port: 443, type: vmess, uuid: e9648ad0-63c5-11f0-808f-1577c1651679, sni: ard.xmbb.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: ard.xmbb.net}}}
-  - {name: Ardh 80 Id, server: 104.17.3.81, port: 80, type: vmess, uuid: f0ff11e0-63c5-11f0-ae0c-1577c1651679, sni: ard.xmbb.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: ard.xmbb.net}}}
+  - {name: Sanggoro 443 ID, server: chat.sociomile.com, port: 443, type: vmess, uuid: a450a370-2af8-11f0-91f8-1577c1651679, sni: 14-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 14-lowh.andfree.my.id}}}
+  - {name: Sanggoro 80 ID , server: chat.sociomile.com, port: 80, type: vmess, uuid: fae8a4c0-2b10-11f0-8d2e-1577c1651679, sni: 14-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 14-lowh.andfree.my.id}}}
+  - {name: Herza x Biznet ID, server: chat.sociomile.com, port: 443, type: vmess, uuid: 605bb240-d899-11ef-9496-1577c1651679, sni: hz2.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: hz2.andfree.my.id}}}
+  - {name: Ardh 443 ID, server: chat.sociomile.com, port: 443, type: vmess, uuid: e9648ad0-63c5-11f0-808f-1577c1651679, sni: ard.xmbb.net, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: ard.xmbb.net}}}
+  - {name: Ardh 80 Id, server: chat.sociomile.com, port: 80, type: vmess, uuid: f0ff11e0-63c5-11f0-ae0c-1577c1651679, sni: ard.xmbb.net, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: ard.xmbb.net}}}
   - name: Herza ID
-    server: 104.17.3.81
+    server: chat.sociomile.com
     port: 443
     type: trojan
     password: c7f9c3a0-d898-11ef-a8d2-1577c1651679
@@ -18,7 +18,7 @@ proxies:
         Host: hz1.andfree.my.id
     udp: true
   - name: Biznet 443 ID T
-    server: 104.17.3.81
+    server: chat.sociomile.com
     port: 443
     type: trojan
     password: 2af84bb0-df33-11ef-8293-1577c1651679
@@ -31,7 +31,7 @@ proxies:
         Host: biznet1.1server.co
     udp: true
   - name: Sanggoro 443 ID T
-    server: 104.17.3.81
+    server: chat.sociomile.com
     port: 443
     type: trojan
     password: f711de40-58e6-11f0-aa7b-1577c1651679
@@ -44,7 +44,7 @@ proxies:
         Host: 15.lowh.net
     udp: true
   - name: IKD
-    server: 104.17.3.81
+    server: chat.sociomile.com
     port: 443
     type: trojan
     password: c80f2e70-7ab4-11f0-a9e8-1577c1651679
@@ -57,7 +57,7 @@ proxies:
         Host: id-ikd.andfree.my.id
     udp: true
   - name: IKD ID
-    server: 104.17.3.81
+    server: chat.sociomile.com
     port: 80
     type: vmess
     uuid: dd8a6380-7ab4-11f0-bc00-1577c1651679
