@@ -1,6 +1,6 @@
 proxies:
   - name: Herza
-    server: smcdn.s45.in
+    server: 104.17.3.81
     port: 443
     type: vmess
     uuid: 419ac750-233b-11f0-b22e-1577c1651679
@@ -15,10 +15,10 @@ proxies:
       headers:
         Host: herza.andfree.my.id
     udp: true
-  - {name: HE 443 SG, server: smcdn.s45.in, port: 443, type: vmess, uuid: ddb86ec0-63ba-11ef-a8f6-1577c1651679, sni: 10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 10-lowh.andfree.my.id}}}
-  - {name: GS 443 SG, server: smcdn.s45.in, port: 443, type: vmess, uuid: 71804490-79c0-11ef-a475-1577c1651679, sni: 2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 2-htmlcdn.andfree.my.id}}}
-  - {name: HE 80 SG, server: smcdn.s45.in, port: 80, type: vmess, uuid: bcb9a010-6ac7-11ef-949a-1577c1651679, sni: 10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 10-lowh.andfree.my.id}}}
-  - {name: GS 80 SG, server: smcdn.s45.in, port: 80, type: vmess, uuid: dc71e360-6ac7-11ef-b778-1577c1651679, sni: 2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 2-htmlcdn.andfree.my.id}}}
+  - {name: HE 443 SG, server: 104.17.3.81, port: 443, type: vmess, uuid: ddb86ec0-63ba-11ef-a8f6-1577c1651679, sni: 10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 10-lowh.andfree.my.id}}}
+  - {name: GS 443 SG, server: 104.17.3.81, port: 443, type: vmess, uuid: 71804490-79c0-11ef-a475-1577c1651679, sni: 2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: 1, skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /hello, headers: {Host: 2-htmlcdn.andfree.my.id}}}
+  - {name: HE 80 SG, server: 104.17.3.81, port: 80, type: vmess, uuid: bcb9a010-6ac7-11ef-949a-1577c1651679, sni: 10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 10-lowh.andfree.my.id}}}
+  - {name: GS 80 SG, server: 104.17.3.81, port: 80, type: vmess, uuid: dc71e360-6ac7-11ef-b778-1577c1651679, sni: 2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 2-htmlcdn.andfree.my.id}}}
   - name: HE 443 SG T
     server: 104.20.75.141
     port: 443
@@ -33,7 +33,7 @@ proxies:
         Host: sg-trojan.andfree.my.id
     udp: true
 #  - name: SG-HE-VLESS-WS-443
-#    server: smcdn.s45.in
+#    server: 104.17.3.81
 #    port: 443
 #    type: vless
 #    uuid: 51407140-25dd-11f0-983b-1577c1651679
