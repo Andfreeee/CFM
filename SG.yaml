@@ -25,12 +25,12 @@ proxies:
     type: trojan
     password: a9570330-769d-11ef-90dc-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.10-lowh.andfree.my.id
+    sni: support.zoom.us.he-tj.kratod.biz.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.10-lowh.andfree.my.id
+        Host: support.zoom.us.he-tj.kratod.biz.id
     udp: true
 #  - name: SG-HE-VLESS-WS-443
 #    server: 104.17.3.81
