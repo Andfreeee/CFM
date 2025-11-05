@@ -20,17 +20,17 @@ proxies:
   - {name: HE 80 SG, server: 104.17.3.81, port: 80, type: vmess, uuid: bcb9a010-6ac7-11ef-949a-1577c1651679, sni: 10-lowh.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: support.zoom.us.10-lowh.kratod.biz.id}}}
   - {name: GS 80 SG, server: 104.17.3.81, port: 80, type: vmess, uuid: dc71e360-6ac7-11ef-b778-1577c1651679, sni: 2-htmlcdn.andfree.my.id, alterId: 0, cipher: auto, tls: , skip-cert-verify: true, udp: true, network: ws, ws-opts: {path: /worryfree, headers: {Host: 2-htmlcdn.andfree.my.id}}}
   - name: HE 443 SG T
-    server: support.zoom.us
+    server: 104.17.3.81
     port: 443
     type: trojan
     password: a9570330-769d-11ef-90dc-1577c1651679
     skip-cert-verify: true
-    sni: support.zoom.us.he-tj.kratod.biz.id
+    sni: sg-trojan.andfree.my.id
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: support.zoom.us.he-tj.kratod.biz.id
+        Host: sg-trojan.andfree.my.id
     udp: true
 #  - name: SG-HE-VLESS-WS-443
 #    server: 104.17.3.81
