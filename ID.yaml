@@ -41,32 +41,3 @@ proxies:
       headers:
         Host: 15.lowh.net
     udp: true
-  - name: IKD
-    server: 104.18.1.196
-    port: 443
-    type: trojan
-    password: c80f2e70-7ab4-11f0-a9e8-1577c1651679
-    skip-cert-verify: true
-    sni: id-ikd.andfree.my.id
-    network: ws
-    ws-opts:
-      path: /welcome
-      headers:
-        Host: id-ikd.andfree.my.id
-    udp: true
-  - name: IKD ID
-    server: 104.18.1.196
-    port: 80
-    type: vmess
-    uuid: dd8a6380-7ab4-11f0-bc00-1577c1651679
-    alterId: 0
-    cipher: auto
-    tls: false
-    skip-cert-verify: true
-    servername: id-ikd.andfree.my.id
-    network: ws
-    ws-opts:
-      path: /worryfree
-      headers:
-        Host: id-ikd.andfree.my.id
-    udp: true
