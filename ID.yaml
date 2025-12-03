@@ -8,12 +8,12 @@ proxies:
     type: trojan
     password: c7f9c3a0-d898-11ef-a8d2-1577c1651679
     skip-cert-verify: true
-    sni: hz1.andfree.my.id
+    sni: hz1.cobadl.com
     network: ws
     ws-opts:
       path: /welcome
       headers:
-        Host: hz1.andfree.my.id
+        Host: hz1.cobadl.com
     udp: true
   - name: Biznet 443 ID T
     server: 104.18.1.196
